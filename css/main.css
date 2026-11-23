@@ -2297,3 +2297,13 @@ body.login-locked .app-shell {
     flex-direction: column;
   }
 }
+
+.sidebar-footer a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.sidebar-footer a:hover {
+    color: #4da3ff;
+}
